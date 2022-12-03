@@ -2,8 +2,8 @@
 
 #include "Scene.h"
 #include <utility>
-#include "../../build2/tutorial/mysimplification/oneField.h"
-#include "../../build2/tutorial/mysimplification/myDataStructure.h"
+#include "oneField.h"
+#include "myDataStructure.h"
 
 using namespace cg3d;
 class BasicScene : public cg3d::Scene
