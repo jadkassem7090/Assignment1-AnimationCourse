@@ -41,7 +41,8 @@ void BasicScene::Init(float fov, int width, int height, float near, float far)
     autoObj1 = AutoMorphingModel::Create(*obj1, morphFunc);
     autoObj2 = AutoMorphingModel::Create(*obj2, morphFunc);
     //Camera
-    camera->Translate({ -1,0,2 });
+    //camera->Translate({ -1,0,2 });
+    camera->Translate({ 0,0,25 });
     //AutoObject 1
     autoObj1->showFaces = false;
     autoObj1->showWireframe = false;
